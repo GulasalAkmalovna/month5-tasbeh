@@ -1,0 +1,75 @@
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(1, 73, 36);
+  background-image: url("https://wallpapers.com/images/featured/islamic-xptqk5xw6adpezzv.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  font-family: sans-serif;
+
+}
+.wrapper{
+width: 270px;
+height: 320px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: end;
+  background-color: #002c666b;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+  box-shadow:rgba(7, 7, 113, 0.874) 0px 5px 35px;
+}
+button{
+  width: 120px;
+  height: 50px;
+  border-radius: 12px;
+  border: none;
+  font-size: 18px;
+  background-color:rgba(36, 36, 208, 0.502);
+  color: #fff;
+  text-align: center;
+}
+.picture{
+  width: 40px;
+}
+.replace{
+  width: 40px;
+  height: 40px;
+}
+.btn{
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  box-shadow: violet 0px 5px 15px;
+}
+.btn:active{
+  transform: scale(0.95);
+}
+button:active{
+  transform: scale(0.95);
+}
+.btn-wrap{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+.content{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 70px;
+  font-size: 30px;
+}
+p{
+font-weight: 600;
+color: rgb(190, 190, 255);
+}
